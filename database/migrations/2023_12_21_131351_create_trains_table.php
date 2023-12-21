@@ -21,7 +21,7 @@ return new class extends Migration
             $table->time('departure_time');
             $table->time('arrival_time');
             $table->string('train_code', 10);
-            $table->integer('number_of_carriages');
+            $table->smallinteger('number_of_carriages');
             $table->boolean('in_time');
             $table->boolean('cancelled');
             $table->timestamps();
